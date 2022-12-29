@@ -31,7 +31,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
     <button type="reset" @click="buttonn">1111</button>
-    <!-- <ZIcon><AccessibilityOutline></AccessibilityOutline></ZIcon> -->
+    <ZIcon><AccessibilityOutline></AccessibilityOutline></ZIcon>
   </div>
 </template> 
 
