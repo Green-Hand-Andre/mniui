@@ -37,7 +37,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
 <script setup lang="ts">
-  import ZIcon from "@mniui/components/icon/src/icon.vue";
+  import ZIcon from "@mniui/components/icon";
   import { AccessibilityOutline } from "@vicons/ionicons5";
   function buttonn():void{
     console.log(ZIcon)

@@ -3,7 +3,7 @@ import { withInstall } from "@mniui/utils/withInstall";
 console.log(_Icon,1111)
 const Icon = withInstall(_Icon); // 生成带有 install 方法的组件
 
-// export default Icon; // 导出组件
+export default Icon; // 导出组件
 export type { IconProps } from "./src/icon"; // 导出组件 props 的类型
 
 // 这里为了给 volar 用的，具体可以看下面的文档
