@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -26,4 +26,24 @@ import HelloWorld from './components/HelloWorld.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style>
+</style> -->
+
+<template>
+  <div>
+    <button type="reset" @click="buttonn">1111</button>
+    <!-- <ZIcon><AccessibilityOutline></AccessibilityOutline></ZIcon> -->
+  </div>
+</template> 
+
+
+<script setup lang="ts">
+  import ZIcon from "@mniui/components/icon/src/icon.vue";
+  import { AccessibilityOutline } from "@vicons/ionicons5";
+  function buttonn():void{
+    console.log(ZIcon)
+
+  }
+</script>
+
+
+
