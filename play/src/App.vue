@@ -30,8 +30,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <button type="reset" @click="buttonn">1111</button>
-    <ZIcon><AccessibilityOutline></AccessibilityOutline></ZIcon>
+    
+    <ZIcon size="300"><AccessibilityOutline></AccessibilityOutline></ZIcon>
   </div>
 </template> 
 
@@ -39,10 +39,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <script setup lang="ts">
   import ZIcon from "@mniui/components/icon";
   import { AccessibilityOutline } from "@vicons/ionicons5";
-  function buttonn():void{
-    console.log(ZIcon)
-
-  }
+  
 </script>
 
 

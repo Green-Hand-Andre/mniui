@@ -2,22 +2,18 @@
     <i :class="bem.b()" :style="style">
         <slot></slot>
     </i>
+    
 </template>
 
-<!-- <script>
-    export default{
-        name:"_Icon",
-        inheritAttrs: false,
-    }
-</script> -->
+
 
 <script lang="ts" setup> 
     import { computed, CSSProperties } from "vue";
     import { createNamespace } from "../../../utils/create";
     import { iconProps } from "./icon";
     const bem = createNamespace("icon");
-    // defineOptions({name: "ZIcon"
-    // });
+    
+    // props
     const props = defineProps(iconProps);
     const style = computed<CSSProperties>(() => {
         if (!props.color && !props.size) {
@@ -28,8 +24,4 @@
             ...(props.color ? { color: props.color } : {}),};
     });
 
-    // export type {
-    //     name: 'Foo',
-    //     inheritAttrs: false,
-    // }
 </script> 
