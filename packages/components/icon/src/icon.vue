@@ -2,17 +2,17 @@
     <i :class="bem.b()" :style="style">
         <slot></slot>
     </i>
-    
+
 </template>
 
 
 
-<script lang="ts" setup> 
+<script lang="ts" setup>
     import { computed, CSSProperties } from "vue";
     import { createNamespace } from "../../../utils/create";
     import { iconProps } from "./icon";
     const bem = createNamespace("icon");
-    
+
     // props
     const props = defineProps(iconProps);
     const style = computed<CSSProperties>(() => {
@@ -24,4 +24,4 @@
             ...(props.color ? { color: props.color } : {}),};
     });
 
-</script> 
+</script>
