@@ -1,19 +1,31 @@
 @use 'config' as *;
 @forward 'config';
-
-// z-icon
-@mixin b($block) {$B: $namespace + '-' + $block;.#{$B} {@content;}
+/*
+bem设计规范
+*/
+// m-icon
+@mixin b($block) {
+    $B: $namespace + '-' + $block;
+    .#{$B} {
+        @content;
+    }
 }
 
-// z-icon.is-xxx
-@mixin when($state) {@at-root {&.#{$state-prefix + $state} {@content;}}
+// m-icon.is-xxx
+@mixin when($state) {
+    @at-root {
+        &.#{$state-prefix + $state}
+            {
+                @content;
+            }
+    }
 }
 
-// .z-icon--primary
+// .m-icon--primary
 
 @mixin m($modifier) {@at-root {#{& + $modifier-separator + $modifier} {@content;}}
 }
 
-// z-icon__header
+// m-icon__header
 @mixin e($element) {@at-root {#{& + $element-separator + $element} {@content;}}
 } 
