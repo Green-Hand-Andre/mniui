@@ -12,7 +12,7 @@
     import { createNamespace } from "../../../utils/create";
     import { buttonProps } from "./button";
     const props = defineProps(buttonProps);
-    const bem = createNamespace("icon");
+    const bem = createNamespace("button");
     // defineOptions({name: "ZIcon"
     // });
 
