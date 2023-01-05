@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-      "dev": "vitepress dev .",
-
+    "dev": "vitepress dev .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.35"
+    "vitepress": "1.0.0-alpha.35",
+    "vitepress-theme-demoblock": "^2.0.2"
   }
 }
