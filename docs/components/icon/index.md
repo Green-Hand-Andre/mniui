@@ -17,5 +17,6 @@
 | 名称| 类型 | 默认值| 说明 |
 | ----- | ---------------- | --------- | -------- |
 | color | string | undefined | 图标颜色 |
-| size| number \| string | undefined | 图片大小 | 
+| size | number \| string | undefined | 图片大小 | 
+| type | string | undefined | 图标类型 |
 

@@ -35,11 +35,11 @@ module.exports = {
         link:'/components/icon/',
         items:[
           {
-            text:'版本',
-            link:'/components/home/home'
+            text:'Button',
+            link:'/components/button/'
           },
           {
-            text:'版本1',
+            text:'Icon',
             link:'/components/icon/'
           },
         ]
