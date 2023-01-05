@@ -2,16 +2,18 @@
 
 <template>
   <div>
-    
-    <ZIcon size="100"><AccessibilityOutline></AccessibilityOutline></ZIcon>
+
+    <MIcon size="100"><AccessibilityOutline></AccessibilityOutline></MIcon>
+    <MButton>你好</MButton>
   </div>
-</template> 
+</template>
 
 
 <script setup lang="ts">
-  import ZIcon from "@mniui/components/icon";
+  import MIcon from "@mniui/components/icon";
+  import MButton from "@mniui/components/button";
   import { AccessibilityOutline } from "@vicons/ionicons5";
-  
+
 </script>
 
 

@@ -24,7 +24,7 @@ module.exports = {
 
     {
       text: "GitHub",
-      link: "https://github.com/lxKylin/vitepressdemo",
+      link: "https://github.com/Green-Hand-Andre/mniui",
     },
     ],
 

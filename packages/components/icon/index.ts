@@ -9,5 +9,5 @@ export type { IconProps } from "./src/icon"; // 导出组件 props 的类型
 // 这里为了给 volar 用的
 
 declare module "vue" {
-    export interface GlobalComponents {ZIcon: typeof Icon;}
-} 
+    export interface GlobalComponents {MIcon: typeof Icon;}
+}
