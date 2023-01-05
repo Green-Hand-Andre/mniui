@@ -14,9 +14,9 @@
 
 ### Button Props
 
-| 名称| 类型 | 默认值| 说明 |
-| ----- | ---------------- | --------- | -------- |
-| color | string | undefined | 图标颜色 |
-| size | string | undefined | 按钮大小 | 
-| type | string | undefined | 按钮类型 |
+| 名称| 类型 | 默认值| 说明 | 可选值 |
+| ----- | ---------------- | --------- | -------- | ----------- |
+| color | string | undefined | 按钮颜色 | 例：(255,255,255,1) |
+| size | string | undefined | 按钮大小 | big\|mo|size |
+| type | string | undefined | 按钮类型 | display |
 
