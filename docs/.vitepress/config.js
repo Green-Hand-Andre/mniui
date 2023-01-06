@@ -15,7 +15,7 @@ module.exports = {
 
     nav: [{
       text: "首页",
-      link: "/components/home/",
+      link: "/index",
     },
     {
       text: "组件",

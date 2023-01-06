@@ -4,7 +4,7 @@
   <div>
 
     <MIcon size="100"><AccessibilityOutline></AccessibilityOutline></MIcon>
-    <MButton>你好</MButton>
+    <MButton disabled>你好</MButton>
   </div>
 </template>
 

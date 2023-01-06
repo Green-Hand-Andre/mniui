@@ -1,5 +1,5 @@
 <template>
-    <button :class="bem.b()" :style="style">
+    <button :disabled="disabled" :class="bem.b()" :style="style">
         <span>
           <slot></slot>
         </span>
@@ -15,7 +15,7 @@
     const bem = createNamespace("button");
     // defineOptions({name: "ZIcon"
     // });
-
+debugger
     const style = computed<CSSProperties>(() => {
         if (!props.color && !props.size) {
             return {};

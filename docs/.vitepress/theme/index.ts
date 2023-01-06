@@ -1,10 +1,12 @@
 import DefaultTheme from 'vitepress/theme';
 import '@mniui/theme-chalk/src/index.scss';
-import ZIcon from '@mniui/components/icon';
+import MIcon from '@mniui/components/icon';
+import MButton from '@mniui/components/button';
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
-    app.use(ZIcon);
+    app.use(MIcon);
+    app.use(MButton);
   },
 };
