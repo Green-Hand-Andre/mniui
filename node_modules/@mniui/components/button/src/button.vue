@@ -1,5 +1,5 @@
 <template>
-    <button :disabled="disabled" :class="bem.b()" :style="style">
+    <button :disabled="disabled!=undefined" :class="bem.b()" :style="style">
         <span>
           <slot></slot>
         </span>
