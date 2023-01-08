@@ -3,8 +3,10 @@
 <template>
   <div>
 
-    <MIcon size="100"><AccessibilityOutline></AccessibilityOutline></MIcon>
-    <MButton disabled>默认按钮</MButton>
+
+
+    <MButton disabled>禁止按钮</MButton>
+    <MButton >默认按钮</MButton>
   </div>
 </template>
 

@@ -3,8 +3,8 @@
 // modifier 装饰
 
 
-// z-button
-// z-button__element--disable
+// m-button
+// m-button__element--disable
 
 /**
  *
@@ -46,4 +46,4 @@ function createBEM(prefixName: string) {
 export function createNamespace(name: string) {
     const prefixName = `m-${name}`;
     return createBEM(prefixName);
-} 
+}

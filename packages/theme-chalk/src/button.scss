@@ -1,0 +1,22 @@
+@use './mixins/mixins.scss' as *;
+
+@include b(button) {
+  // width: 1em;
+  // height: 0.5em;
+  border: 0;
+  background-color: rgba(161, 161, 161, 0.5);
+  &:hover{
+    background-color: rgba(161, 161, 161,0.7);
+  }
+  @include m(disabled) {
+    &:hover{
+      cursor: not-allowed;
+    }
+    // background-color: aqua;
+
+
+   }
+}
+
+
+
