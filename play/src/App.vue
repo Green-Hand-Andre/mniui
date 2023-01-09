@@ -12,9 +12,9 @@
 
 
 <script setup lang="ts">
-  import MIcon from "@mniui/components/icon";
+  // import MIcon from "@mniui/components/icon";
   import MButton from "@mniui/components/button";
-  import { AccessibilityOutline } from "@vicons/ionicons5";
+  // import { AccessibilityOutline } from "@vicons/ionicons5";
 
 </script>
 
