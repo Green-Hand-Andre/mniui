@@ -1,5 +1,9 @@
 <template>
-    <button :disabled="disabled" :class="[bem.b(),bem.m(disabled?'disabled':'')]" :style="style">
+    <button :disabled="disabled"
+     :class="[bem.b(),
+     bem.is('disabled',disabled),
+     bem.m(type)
+     ]" :style="style">
         <span>
           <slot></slot>
         </span>

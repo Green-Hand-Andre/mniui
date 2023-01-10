@@ -7,6 +7,7 @@
 
     <MButton disabled>禁止按钮</MButton>
     <MButton >默认按钮</MButton>
+    <MButton type="success">成功按钮</MButton>
   </div>
 </template>
 

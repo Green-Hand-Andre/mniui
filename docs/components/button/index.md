@@ -13,6 +13,9 @@
 ``` vue
 <template>
   <MButton>默认按钮</MButton>
+  <MButton type="success">成功按钮</MButton>
+  <MButton type="waring">警告按钮</MButton>
+  <MButton type="fail">失败按钮</MButton>
   <MButton disabled>禁止按钮</MButton>
 </template>
 ```
@@ -26,6 +29,8 @@
 
 | 属性名 | 类型 | 默认值| 说明 | 可选值 |
 | ----- | ---------------- | --------- | -------- | ----------- |
-| display | boolean | false | 是否为禁用状态 | true \| false |
-| type | string | default | 按钮类型 | default \| success \| waring \| fail  |
+| display | boolean | false | 是否为禁用状态 | false |
+| type | string | ———— | 按钮类型 | success |
+| round | string | ———— | 圆角大小 | 1% |
+
 
