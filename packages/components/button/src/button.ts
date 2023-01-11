@@ -5,7 +5,8 @@ export const buttonProps = {
     color: String,
     type: String,
     disabled:Boolean,
-    backgroundColor:String
+    backgroundColor:String,
+    round:String
 } as const;
 
 export type ButtonProps = ExtractPropTypes<typeof buttonProps>;

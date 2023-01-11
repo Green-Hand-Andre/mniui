@@ -7,7 +7,7 @@
     background-color: rgba(161, 161, 161,0.7);
   }
   // 禁止输入
-  @include is(disabled) {
+  @include when(disabled) {
     &:hover{
       cursor: not-allowed;
     }
@@ -16,7 +16,18 @@
 
   //  成功
    @include m(success) {
-    background-color: aquamarine;
+    background-color: rgba(124, 235, 80,0.5);
+    &:hover{
+      background-color:rgba(124, 235, 80,0.7) ;
+    }
+   }
+
+  //  警告
+   @include m(waring) {
+    background-color: rgba(215, 95, 44, 0.5);
+    &:hover{
+      background-color:rgba(217, 95, 44,0.7) ;
+    }
    }
 }
 

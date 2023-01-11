@@ -3,7 +3,8 @@
      :class="[bem.b(),
      bem.is('disabled',disabled),
      bem.m(type)
-     ]" :style="style">
+     ]"
+     :style="style">
         <span>
           <slot></slot>
         </span>
@@ -27,7 +28,7 @@
         return {
             ...(props.size ? { "font-size": props.size + "px" } : {}),
             ...(props.color ? { color: props.color } : {}),
-            ...(props.backgroundColor?{backgroundColor:props.backgroundColor} : {})
+            ...(props.round?{"border-radius":props.round} : {})
 
           };
 
