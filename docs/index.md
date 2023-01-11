@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: MNI UI
-  text: 轻量级前端UI框架.
+  text: 轻量前端UI框架.
   image:
     src: /vr.png
     alt: Kitty

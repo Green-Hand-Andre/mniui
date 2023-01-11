@@ -1,7 +1,14 @@
 @use './mixins/mixins.scss' as *;
 
 @include b(button) {
-  border: 0;
+  // border: 0;
+  border: none;
+  outline: none;
+  &:focus{
+    border: none;
+    outline: none;
+
+  }
   background-color: rgba(161, 161, 161, 0.5);
   &:hover{
     background-color: rgba(161, 161, 161,0.7);
@@ -30,6 +37,8 @@
     }
    }
 }
+
+
 
 
 

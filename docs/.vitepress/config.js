@@ -35,13 +35,21 @@ module.exports = {
         link:'/components/icon/',
         items:[
           {
-            text:'Button',
+            text:'Button 按钮',
             link:'/components/button/'
           },
           {
-            text:'Icon',
+            text:'Icon 图标',
             link:'/components/icon/'
           },
+          {
+            text:'Layout 布局',
+            link:'/components/layout/'
+          },
+          {
+            text:'Table 表格',
+            link:'/components/table/'
+          }
         ]
 
       },

@@ -28,7 +28,7 @@
         return {
             ...(props.size ? { "font-size": props.size + "px" } : {}),
             ...(props.color ? { color: props.color } : {}),
-            ...(props.round?{"border-radius":props.round} : {})
+            ...(props.round?{"border-radius":props.round,"width":"50px","height":"50px"} : {})
 
           };
 
