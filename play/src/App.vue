@@ -12,6 +12,10 @@
     <MButton>
       <MIcon><AccessibilityOutline></AccessibilityOutline></MIcon>图标
     </MButton>
+    <MLayout>
+      main
+    </MLayout>
+
   </div>
 </template>
 
@@ -20,6 +24,7 @@
   import MIcon from "@mniui/components/icon";
   // import {MIcon} from "@mniui"
   import MButton from "@mniui/components/button";
+  import MLayout from "@mniui/components/layout";
   import { AccessibilityOutline } from "@vicons/ionicons5";
 
 </script>
