@@ -1,34 +1,29 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+  import MIcon from "@mniui/components/icon";
+  // import {MIcon} from "@mniui"
+  import MButton from "@mniui/components/button";
+  import MLayout from "@mniui/components/layout";
+  import { AccessibilityOutline } from "@vicons/ionicons5";
 
-defineProps<{ msg: string }>()
 
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <div>
+    <MButton disabled>禁止按钮</MButton>
+    <MButton >默认按钮</MButton>
+    <MButton type="success">成功按钮</MButton>
+    <MButton type="waring" disabled>警告按钮</MButton>
+    <MButton>
+      <MIcon><AccessibilityOutline></AccessibilityOutline></MIcon>图标
+    </MButton>
+    <MLayout>
+      main
+    </MLayout>
 
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+
   </div>
 
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
